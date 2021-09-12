@@ -20,21 +20,23 @@ body
 	width: 600px;
 	display: flex;
 	box-shadow: 0 1px 20px 0 rgba(69, 90  ,100, 0.08);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
 }
 .wrapper .left
 {
 	width: 30%;
-	background: linear-gradient(to right, #01a9ac, #01dbdf);
+	background: linear-gradient(to right bottom, #a47fe3, #00ac9f);
 	padding: 30px 25px;
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
 	text-align: center;
 	color: #fff;
 }
 .wrapper .left img
 {
 	width: 100px;
-	border-radius: 5px;
+	border-radius: 8px;
 	margin-bottom: 10px;
 }
 
@@ -45,7 +47,8 @@ body
 
 .wrapper .left p
 {
-	font-size: 12px;
+	font-size: 14px;
+	color: #ddd;
 }
 
 .wrapper .right
@@ -53,8 +56,8 @@ body
 	width: 70%;
 	background: #fff;
 	padding: 30px 25px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
 }
 .wrapper .right .info,
 .wrapper .right .projects
@@ -89,7 +92,7 @@ body
 .wrapper .right .info_data .data p,
 .wrapper .right .projects_data .data p
 {
-	font-size: 13px;
+	font-size: 14px;
 	margin-bottom: 10px;
 	color: #919aa3;
 }
@@ -102,9 +105,9 @@ body
 {
 	width: 45px;
 	height: 45px;
-	background: linear-gradient(to right, #01a9ac, #01dbdf);
+	background: linear-gradient(to right bottom, #a47fe3, #00ac9f);
 	margin-right: 10px;
-	border-radius: 5px;
+	border-radius: 50%;
 	text-align: center;
 	line-height: 45px;
 }
