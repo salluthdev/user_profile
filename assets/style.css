@@ -48,7 +48,6 @@ body
 	font-size: 14px;
 	color: #ddd;
 }
-
 .wrapper .right
 {
 	width: 70%;
@@ -57,8 +56,7 @@ body
 	border-top-right-radius: 8px;
 	border-bottom-right-radius: 8px;
 }
-.wrapper .right .info,
-.wrapper .right .projects
+.wrapper .right .info
 {
 	margin-bottom: 25px;
 }
@@ -71,11 +69,10 @@ body
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
-.wrapper .right .info_data,
-.wrapper .right .projects_data
+.wrapper .right .info_data
 {
 	display: flex;
-	justify-content: space-between;
+	flex-direction: column;
 }
 .wrapper .right .data
 {
