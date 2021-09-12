@@ -17,7 +17,7 @@ body
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 450px;
+	width: 600px;
 	display: flex;
 	box-shadow: 0 1px 20px 0 rgba(69, 90  ,100, 0.08);
 }
@@ -76,8 +76,7 @@ body
 	display: flex;
 	justify-content: space-between;
 }
-.wrapper .right .info_data .data,
-.wrapper .right .projects_data .data
+.wrapper .right .data
 {
 	width: 45%;
 }
