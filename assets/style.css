@@ -98,6 +98,7 @@ body
 .wrapper .social_media ul
 {
 	display: flex;
+	list-style: none;
 }
 .wrapper .social_media ul li
 {
