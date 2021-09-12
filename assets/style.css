@@ -19,8 +19,7 @@ body
 	transform: translate(-50%, -50%);
 	width: 600px;
 	display: flex;
-	box-shadow: 0 1px 20px 0 rgba(69, 90  ,100, 0.08);
-	border: 1px solid rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(0, 0 ,0, 0.14);
 	border-radius: 8px;
 }
 .wrapper .left
@@ -39,7 +38,6 @@ body
 	border-radius: 8px;
 	margin-bottom: 10px;
 }
-
 .wrapper .left h4
 {
 	margin-bottom: 10px;
@@ -71,7 +69,7 @@ body
 	border-bottom: 1px solid #e0e0e0;
 	color: #353c4e;
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 }
 .wrapper .right .info_data,
 .wrapper .right .projects_data
