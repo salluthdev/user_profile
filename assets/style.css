@@ -28,8 +28,7 @@ body
 	width: 200px;
 	background: linear-gradient(to right bottom, #a47fe3, #00ac9f);
 	padding: 30px 25px;
-	border-top-left-radius: 8px;
-	border-bottom-left-radius: 8px;
+	border-radius: 8px 0 0 8px;
 	text-align: center;
 	color: #fff;
 }
