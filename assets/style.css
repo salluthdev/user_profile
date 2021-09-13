@@ -158,6 +158,10 @@ body
 		left: unset;
 		margin: 40px auto;
 	}
+	.wrapper .left
+	{
+		width: 100%;
+	}
 	.wrapper .right
 	{
 		width: calc(100% - 80px);
