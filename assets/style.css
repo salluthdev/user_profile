@@ -146,3 +146,20 @@ body
 		letter-spacing: 1.8px;
 	}
 }
+
+@media (max-width: 576px)
+{
+	.wrapper
+	{
+		position: relative;
+		flex-direction: column;
+		transform: none;
+		top: unset;
+		left: unset;
+		margin: 40px auto;
+	}
+	.wrapper .right
+	{
+		width: calc(100% - 80px);
+	}
+}
