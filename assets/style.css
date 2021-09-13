@@ -6,6 +6,7 @@
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 	font-family: 'Poppins', sans-serif;
+	transition: 0.5s;
 }
 body
 {
@@ -121,5 +122,18 @@ body
 	{
 		grid-template-columns: repeat(2, 1fr);
 		padding: 40px 0;
+	}
+}
+
+@media (max-width: 767px)
+{
+	.wrapper .right .info_data
+	{
+		grid-template-columns: 1fr;
+		padding: 20px 0;
+	}
+	.wrapper .right .info_data .data h4
+	{
+		margin-bottom: 0;
 	}
 }
