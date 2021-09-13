@@ -90,7 +90,7 @@ body
 {
 	width: 45px;
 	height: 45px;
-	background: linear-gradient(to right bottom, #a47fe3, #00ac9f);
+	background: #00ac9f;
 	margin-right: 10px;
 	border-radius: 50%;
 	text-align: center;
