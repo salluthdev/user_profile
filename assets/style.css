@@ -27,7 +27,7 @@ body
 {
 	width: 200px;
 	background: linear-gradient(to right bottom, #a47fe3, #00ac9f);
-	padding: 30px 25px;
+	padding: 32px;
 	border-radius: 8px 0 0 8px;
 	text-align: center;
 	color: #fff;
@@ -139,6 +139,10 @@ body
 
 @media (max-width: 697px)
 {
+	.wrapper .left, .wrapper .right
+	{
+		padding: 28px;
+	}
 	.wrapper .right .info h2
 	{
 		padding-bottom: 16px;
@@ -164,6 +168,6 @@ body
 	}
 	.wrapper .right
 	{
-		width: calc(100% - 80px);
+		width: 100%;
 	}
 }
