@@ -19,7 +19,7 @@ body
 	transform: translate(-50%, -50%);
 	width: 1000px;
 	display: flex;
-	border: 1px solid rgba(0, 0 ,0, 0.14);
+	border: 1px solid rgba(0, 0 ,0, 0.18);
 	border-radius: 8px;
 }
 .wrapper .left
@@ -59,7 +59,7 @@ body
 .wrapper .right .info h2
 {
 	padding-bottom: 20px;
-	border-bottom: 1px solid #e0e0e0;
+	border-bottom: 1px solid rgba(0, 0 ,0, 0.16);
 	color: #353c4e;
 	text-transform: uppercase;
 	letter-spacing: 2px;
