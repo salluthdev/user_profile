@@ -17,14 +17,14 @@ body
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 600px;
+	width: 1000px;
 	display: flex;
 	border: 1px solid rgba(0, 0 ,0, 0.14);
 	border-radius: 8px;
 }
 .wrapper .left
 {
-	width: 30%;
+	width: 200px;
 	background: linear-gradient(to right bottom, #a47fe3, #00ac9f);
 	padding: 30px 25px;
 	border-top-left-radius: 8px;
@@ -49,7 +49,7 @@ body
 }
 .wrapper .right
 {
-	width: 70%;
+	width: 800px;
 	background: #fff;
 	padding: 30px 25px;
 	border-top-right-radius: 8px;
@@ -65,9 +65,9 @@ body
 }
 .wrapper .right .info_data
 {
-	display: flex;
-	flex-direction: column;
-	padding: 20px 0;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 60px 0;
 }
 .wrapper .right .info_data .data h4
 {
