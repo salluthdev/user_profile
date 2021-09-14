@@ -68,6 +68,7 @@ body
 {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
 	padding: 60px 0;
 }
 .wrapper .right .info_data .data h4
