@@ -163,6 +163,7 @@ body
 	.wrapper
 	{
 		width: calc(100% - 80px);
+		margin: 40px auto;
 	}
 	.wrapper .left
 	{
@@ -181,6 +182,10 @@ body
 
 @media (max-width: 767px)
 {
+	.wrapper
+	{
+		margin: 180px auto;
+	}
 	.wrapper .right .info_data
 	{
 		grid-template-columns: 1fr;
@@ -194,6 +199,10 @@ body
 
 @media (max-width: 697px)
 {
+	.wrapper
+	{
+		margin: 200px auto;
+	}
 	.wrapper .left, .wrapper .right
 	{
 		padding: 28px;
