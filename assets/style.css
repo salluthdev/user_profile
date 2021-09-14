@@ -85,11 +85,13 @@ body
 {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .wrapper .social_media ul
 {
 	display: flex;
 	list-style: none;
+	margin-bottom: 20px;
 }
 .wrapper .social_media ul li
 {
@@ -121,6 +123,7 @@ body
 	border-radius: 8px;
 	font-weight: 500;
 	cursor: pointer;
+	height: 45px;
 }
 .wrapper .user_bottom button i
 {
