@@ -164,7 +164,6 @@ body
 	.wrapper
 	{
 		width: calc(100% - 80px);
-		margin: 40px auto;
 	}
 	.wrapper .left
 	{
@@ -185,7 +184,7 @@ body
 {
 	.wrapper
 	{
-		margin: 180px auto;
+		margin: 120px auto;
 	}
 	.wrapper .right .info_data
 	{
@@ -200,10 +199,6 @@ body
 
 @media (max-width: 697px)
 {
-	.wrapper
-	{
-		margin: 200px auto;
-	}
 	.wrapper .left, .wrapper .right
 	{
 		padding: 28px;
@@ -212,6 +207,14 @@ body
 	{
 		padding-bottom: 16px;
 		letter-spacing: 1.8px;
+	}
+}
+
+@media (max-width: 587px)
+{
+	.wrapper
+	{
+		margin: 160px auto;
 	}
 }
 
