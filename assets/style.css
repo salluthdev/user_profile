@@ -81,6 +81,11 @@ body
 	padding-bottom: 16px;
 	color: #919aa3;
 }
+.wrapper .user_bottom
+{
+	display: flex;
+	justify-content: space-between;
+}
 .wrapper .social_media ul
 {
 	display: flex;
