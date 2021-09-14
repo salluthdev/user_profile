@@ -113,9 +113,13 @@ body
 	color: #fff;
 	outline: none;
 	border: none;
-	padding: 10px 20px;
+	padding: 0 16px;
 	border-radius: 8px;
 	font-weight: 500;
+}
+.wrapper .user_bottom button i
+{
+	margin-right: 6px;
 }
 
 @media (max-width: 1076px)
