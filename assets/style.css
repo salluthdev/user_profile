@@ -101,6 +101,11 @@ body
 	text-align: center;
 	line-height: 45px;
 }
+.wrapper .social_media ul li:hover,
+.wrapper .user_bottom button:hover
+{
+	background: #00c4b6;
+}
 .wrapper .social_media ul li a
 {
 	color :#fff;
@@ -116,6 +121,7 @@ body
 	padding: 0 16px;
 	border-radius: 8px;
 	font-weight: 500;
+	cursor: pointer;
 }
 .wrapper .user_bottom button i
 {
