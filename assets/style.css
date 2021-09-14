@@ -135,6 +135,28 @@ body
 	text-decoration: none;
 }
 
+/* Edit Profile */
+.field
+{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: rgba(230, 230, 230, 0.6);
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	border: 2px solid rgba(0, 0, 0, 0);
+	border-radius: 4px;
+}
+.field:focus
+{
+	background-color: white;
+	outline-color: rgba(0, 0, 0, 0.2);
+	opacity: 0.8;
+}
+.area 
+{
+	min-height: 120px;
+}
+
 @media (max-width: 1076px)
 {
 	.wrapper
