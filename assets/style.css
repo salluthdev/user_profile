@@ -51,7 +51,7 @@ body
 {
 	content: '';
 	position: absolute;
-	bottom: 20px;
+	bottom: 25px;
 	left: 34px;
 	background: url('img/camera.svg');
 	background-repeat: no-repeat;
