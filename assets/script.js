@@ -12,6 +12,6 @@ function toggle(){
 		setAttribute("type", "text");
 		state = true;
 		document.getElementById('eye').
-		style.color = '#5887ef';
+		style.color = '#00ac9f';
 	}
 }
