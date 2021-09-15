@@ -125,9 +125,19 @@ body
 	cursor: pointer;
 	height: 45px;
 }
+.wrapper .user_bottom button:hover
+{
+	background: #00ac9f;
+	border: 1px solid #fff;
+}
+.wrapper .user_bottom button:hover > a
+{
+	color: #fff;
+}
 .wrapper .user_bottom button i
 {
 	margin-right: 4.6px;
+	transition: 0s;
 }
 .wrapper .user_bottom button a
 {
