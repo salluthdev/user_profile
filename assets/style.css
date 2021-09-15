@@ -156,6 +156,8 @@ body
 .permanent
 {
 	pointer-events: none;
+	background: #fff;
+	padding: 0.5rem 0;
 }
 .area 
 {
@@ -202,27 +204,6 @@ body
 
 @media (max-width: 697px)
 {
-	.wrapper .left, .wrapper .right
-	{
-		padding: 28px;
-	}
-	.wrapper .right .info h2
-	{
-		padding-bottom: 16px;
-		letter-spacing: 1.8px;
-	}
-}
-
-@media (max-width: 587px)
-{
-	.wrapper
-	{
-		margin: 160px auto;
-	}
-}
-
-@media (max-width: 576px)
-{
 	.wrapper
 	{
 		position: relative;
@@ -234,11 +215,16 @@ body
 	}
 	.wrapper .left
 	{
-		width: 100%;
 		border-radius: 8px 8px 0 0;
 	}
-	.wrapper .right
+	.wrapper .left, .wrapper .right
 	{
+		padding: 28px;
 		width: 100%;
+	}
+	.wrapper .right .info h2
+	{
+		padding-bottom: 16px;
+		letter-spacing: 1.8px;
 	}
 }
