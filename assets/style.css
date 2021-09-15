@@ -32,34 +32,6 @@ body
 	text-align: center;
 	color: #fff;
 }
-.wrapper .left .profile-img
-{
-	position: relative;
-}
-.wrapper .left .profile-img::before
-{
-	content: '';
-	position: absolute;
-	bottom: 16px;
-	background: rgba(0, 0, 0, 0.4);
-	width: 100px;
-	height: 50px;
-	z-index: 1;
-	border-radius: 0 0 50px 50px;
-}
-.wrapper .left .profile-img::after
-{
-	content: '';
-	position: absolute;
-	bottom: 25px;
-	left: 34px;
-	background: url('img/camera.svg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 32px;
-	height: 32px;
-	z-index: 2;
-}
 .wrapper .left img
 {
 	width: 100px;
@@ -175,6 +147,34 @@ body
 }
 
 /* Edit Profile */
+.wrapper .left .profile-img
+{
+	position: relative;
+}
+.wrapper .left .profile-img::before
+{
+	content: '';
+	position: absolute;
+	bottom: 16px;
+	background: rgba(0, 0, 0, 0.4);
+	width: 100px;
+	height: 50px;
+	z-index: 1;
+	border-radius: 0 0 50px 50px;
+}
+.wrapper .left .profile-img::after
+{
+	content: '';
+	position: absolute;
+	bottom: 25px;
+	left: 34px;
+	background: url('img/camera.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 32px;
+	height: 32px;
+	z-index: 2;
+}
 .field
 {
 	width: 100%;
