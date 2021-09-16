@@ -15,11 +15,12 @@ function toggle(){
 		style.color = '#00ac9f';
 	}
 }
-function validasi() {
-		var phone = document.getElementById("phone").value;
-		if (phone != "") {
-			return true;
-		}else{
-			alert('Mohon Mengisi Data dengan Lengkap!');
-		}
+function validasi(){
+	var phone = document.getElementById("phone").value;
+	if (phone != ""){
+		return true;
 	}
+	else{
+		alert('Mohon Mengisi Data dengan Lengkap!');
+	}
+}
