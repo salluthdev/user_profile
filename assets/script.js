@@ -1,3 +1,14 @@
+function validasi(){
+	var phone = document.getElementById("phone").value;
+	var desk = document.getElementById("desk").value;
+	if (phone != "" && desk !=""){
+		return true;
+	}
+	else{
+		alert('Mohon Mengisi Data dengan Lengkap!');
+		return false;
+	}
+}
 var state = false
 function toggle(){
 	if (state){
@@ -13,14 +24,5 @@ function toggle(){
 		state = true;
 		document.getElementById('eye').
 		style.color = '#00ac9f';
-	}
-}
-function validasi(){
-	var phone = document.getElementById("phone").value;
-	if (phone != ""){
-		return true;
-	}
-	else{
-		alert('Mohon Mengisi Data dengan Lengkap!');
 	}
 }
