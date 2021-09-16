@@ -116,6 +116,10 @@ body
 	display: block;
 	font-size: 18px;
 }
+.wrapper .user_bottom a
+{
+	text-decoration: none;
+}
 .wrapper .user_bottom button
 {
 	background: #fff;
@@ -137,10 +141,6 @@ body
 {
 	margin-right: 4.6px;
 	transition: 0s;
-}
-.wrapper .user_bottom a
-{
-	text-decoration: none;
 }
 
 /* Edit Profile */
