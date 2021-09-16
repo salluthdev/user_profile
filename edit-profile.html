@@ -15,9 +15,11 @@
 			<h2>Faisal L</h2>
 			<p>I'm a Front End Web Developer</p>
 		</div>
+		<form onsubmit="validasi()">
 		<div class="right">
 			<div class="info">
 				<h2>Informasi Pribadi</h2>
+				
 				<div class="info_data">
 					<div class="data">
 						<h4>Nama Pengguna</h4>
@@ -32,11 +34,11 @@
 					</div>
 					<div class="data">
 						<h4>Tanggal Lahir</h4>
-						<input type="date" class="field">
+						<input type="date" class="field" value="2003-12-12">
 					</div>
 					<div class="data">
 						<h4>Phone</h4>
-						<input type="text" class="field" value="+62 857 6182 7008">
+						<input type="text" class="field" value="+62 857 6182 7008" name="phone" id="phone">
 					</div>
 					<div class="data">
 						<h4>Email</h4>
@@ -46,7 +48,7 @@
 						<h4>Deskripsi</h4>
 						<textarea class="field area">I'm a Front End Web Developer</textarea>
 					</div>
-				</div>
+				</div>	
 			</div>
 
 			<div class="user_bottom">
@@ -57,9 +59,10 @@
               			<li><a href="#"><i class="fab fa-instagram"></i></a></li>
           			</ul>
      		 	</div>
-     		 	<button><a href="#"><i class="fas fa-save"></i>Save Profile</a></button>
+     		 	<button type="submit"><a href="#"><i class="fas fa-save"></i>Save Profile</a></button>
      		</div>
     	</div>
+    	</form>
 	</div>
 
 	<script src="assets/script.js"></script>
