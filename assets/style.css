@@ -126,13 +126,11 @@ body
 	font-weight: 500;
 	cursor: pointer;
 	height: 45px;
+	color: #00ac9f;
 }
 .wrapper .user_bottom button:hover
 {
 	border: 1px solid #fff;
-}
-.wrapper .user_bottom button:hover > a
-{
 	color: #fff;
 }
 .wrapper .user_bottom button i
@@ -140,9 +138,8 @@ body
 	margin-right: 4.6px;
 	transition: 0s;
 }
-.wrapper .user_bottom button a
+.wrapper .user_bottom a
 {
-	color: #00ac9f;
 	text-decoration: none;
 }
 
@@ -179,7 +176,7 @@ body
 {
 	width: 100%;
 	padding: 0.5rem 1rem;
-	background-color: rgba(230, 230, 230, 0.6);
+	background: rgba(230, 230, 230, 0.6);
 	font-size: 16px;
 	border: 2px solid rgba(0, 0, 0, 0);
 	border-radius: 4px;

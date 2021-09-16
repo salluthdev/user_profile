@@ -1,14 +1,3 @@
-function validasi(){
-	var phone = document.getElementById("phone").value;
-	var desk = document.getElementById("desk").value;
-	if (phone != "" && desk !=""){
-		return true;
-	}
-	else{
-		alert('Mohon Mengisi Data dengan Lengkap!');
-		return false;
-	}
-}
 var state = false
 function toggle(){
 	if (state){
