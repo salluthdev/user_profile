@@ -17,7 +17,7 @@ function toggle(){
 }
 
 const form = document.getElementById('form');
-const username = document.getElementById('username');
+const phone = document.getElementById('phone');
 
 form.addEventListener('submit', e => {
 	e.preventDefault();
@@ -27,13 +27,13 @@ form.addEventListener('submit', e => {
 
 function checkInputs() {
 	// trim to remove the whitespaces
-	const usernameValue = username.value.trim();
+	const phoneValue = phone.value.trim();
 	const passwordValue = password.value.trim();
 	
-	if(usernameValue === '') {
-		setErrorFor(username, "Phone Number can't be blank.");
+	if(phoneValue === '') {
+		setErrorFor(phone, "Nomor telepon tidak boleh kosong.");
 	} else {
-		setSuccessFor(username);
+		setSuccessFor(phone);
 	}
 }
 
