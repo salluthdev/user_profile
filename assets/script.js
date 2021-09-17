@@ -30,6 +30,7 @@ function checkInputs() {
 	// trim to remove the whitespaces
 	const phoneValue = phone.value.trim();
 	const tanggal_lahirValue = tanggal_lahir.value.trim();
+	const passwordValue = password.value.trim();
 	
 	if(phoneValue === '') {
 		setErrorFor(phone, "Nomor telepon tidak boleh kosong.");
@@ -41,6 +42,12 @@ function checkInputs() {
 		setErrorFor(tanggal_lahir, "Tanggal lahir tidak boleh kosong.");
 	} else {
 		setSuccessFor(tanggal_lahir);
+	}
+
+	if(passwordValue === '') {
+		setErrorFor(password, "Password tidak boleh kosong.");
+	} else {
+		setSuccessFor(password);
 	}
 }
 
