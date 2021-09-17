@@ -16,6 +16,7 @@
 			<p>I'm a Front End Web Developer</p>
 		</div>
 
+		<form id="form" class="form">
 		<div class="right">
 			<div class="info">
 				<h2>Informasi Pribadi</h2>		
@@ -35,9 +36,10 @@
 						<h4>Tanggal Lahir</h4>
 						<input type="date" class="field" value="2003-12-12">
 					</div>
-					<div class="data">
-						<h4>Phone</h4>
-						<input type="text" class="field" value="+62 857 6182 7008" name="phone" id="phone">
+					<div class="data form-control">
+						<h4>Nomor Telepon</h4>
+						<input type="text" class="field" value="+62 857 6182 7008" id="username">
+						<small>Error message</small>
 					</div>
 					<div class="data">
 						<h4>Email</h4>
@@ -47,7 +49,7 @@
 						<h4>Deskripsi</h4>
 						<textarea class="field area" id="desk">I'm a Front End Web Developer</textarea>
 					</div>
-				</div>	
+				</div>
 			</div>
 
 			<div class="user_bottom">
@@ -58,9 +60,10 @@
               			<li><a href="#"><i class="fab fa-instagram"></i></a></li>
           			</ul>
      		 	</div>
-     		 	<a href="#"><button type="submit"><i class="fas fa-save"></i>Save Profile</button></a>
+     		 	<a href="#"><button><i class="fas fa-save"></i>Save Profile</button></a>
      		</div>
     	</div>
+    	</form>
 	</div>
 
 	<script src="assets/script.js"></script>

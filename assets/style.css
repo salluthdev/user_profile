@@ -75,12 +75,11 @@ body
 .wrapper .right .info_data .data h4
 {
 	color: #353c4e;
-	margin-bottom: 5px;
 }
 .wrapper .right .info_data .data p
 {
 	font-size: 16px;
-	padding-bottom: 16px;
+	padding: 4px 0 16px 0;
 	color: #919aa3;
 }
 .wrapper .user_bottom
@@ -208,6 +207,24 @@ body
 .area 
 {
 	min-height: 120px;
+}
+.form-control.success input
+{
+	border-color: #2ecc71;
+	transform: none;
+}
+.form-control.error input
+{
+	border-color: #e74c3c;
+}
+.form-control small
+{
+	color: #e74c3c;
+	visibility: hidden;
+}
+.form-control.error small
+{
+	visibility: visible;
 }
 
 @media (max-width: 1076px)
