@@ -18,6 +18,7 @@ function toggle(){
 
 const form = document.getElementById('form');
 const phone = document.getElementById('phone');
+const tanggal_lahir = document.getElementById('tanggal_lahir');
 
 form.addEventListener('submit', e => {
 	e.preventDefault();
@@ -28,12 +29,18 @@ form.addEventListener('submit', e => {
 function checkInputs() {
 	// trim to remove the whitespaces
 	const phoneValue = phone.value.trim();
-	const passwordValue = password.value.trim();
+	const tanggal_lahirValue = tanggal_lahir.value.trim();
 	
 	if(phoneValue === '') {
 		setErrorFor(phone, "Nomor telepon tidak boleh kosong.");
 	} else {
 		setSuccessFor(phone);
+	}
+
+	if(tanggal_lahirValue === '') {
+		setErrorFor(tanggal_lahir, "Tanggal lahir tidak boleh kosong.");
+	} else {
+		setSuccessFor(tanggal_lahir);
 	}
 }
 
