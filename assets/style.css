@@ -208,11 +208,11 @@ body
 {
 	min-height: 120px;
 }
-.form-control.success input
+.form-control.success input, .form-control.success textarea
 {
 	border-color: #2ecc71;
 }
-.form-control.error input
+.form-control.error input, .form-control.error textarea
 {
 	border-color: #e74c3c;
 }

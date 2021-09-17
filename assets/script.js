@@ -19,6 +19,7 @@ function toggle(){
 const form = document.getElementById('form');
 const phone = document.getElementById('phone');
 const tanggal_lahir = document.getElementById('tanggal_lahir');
+const desk = document.getElementById('desk');
 
 form.addEventListener('submit', e => {
 	e.preventDefault();
@@ -31,6 +32,7 @@ function checkInputs() {
 	const phoneValue = phone.value.trim();
 	const tanggal_lahirValue = tanggal_lahir.value.trim();
 	const passwordValue = password.value.trim();
+	const deskValue = desk.value.trim();
 	
 	if(phoneValue === '') {
 		setErrorFor(phone, "Nomor telepon tidak boleh kosong.");
@@ -48,6 +50,12 @@ function checkInputs() {
 		setErrorFor(password, "Password tidak boleh kosong.");
 	} else {
 		setSuccessFor(password);
+	}
+
+	if(deskValue === '') {
+		setErrorFor(desk, "Deskripsi tidak boleh kosong.");
+	} else {
+		setSuccessFor(desk);
 	}
 }
 
